@@ -124,10 +124,10 @@ const Form = () => {
 
                     <select value={budget} onChange={handleBudgetChange} required className='w-full outline-none font-nunito lg:h-12 h-[39px] lg:rounded-none rounded bg-white px-3 text-[#6A6A68]'>
                         <option value="" disabled>What is your budget*</option>
-                        <option value="1-3 Lakh">1-3 Lakh</option>
-                        <option value="3-5 Lakh">3-5 Lakh</option>
-                        <option value="6-9 Lakh">6-9 Lakh</option>
-                        <option value="10 Lakh & above">10 Lakh & above</option>
+                        <option value="1-3 Lakhs">1-3 Lakhs</option>
+                        <option value="3-5 Lakhs">3-5 Lakhs</option>
+                        <option value="6-9 Lakhs">6-9 Lakhs</option>
+                        <option value="10 Lakhs & above">10 Lakhs & above</option>
                     </select>
 
                     <input
