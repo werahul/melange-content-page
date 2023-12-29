@@ -82,7 +82,7 @@ const Form = () => {
             };
 
             // Send form data to nodemailer endpoint
-            const { data } = await axios.post('http://localhost:3001/send-email', formData);
+            const { data } = await axios.post('https://long-gray-tick-toga.cyclic.app/send-email', formData);
 
             // Reset form fields
             setName('');
@@ -124,8 +124,10 @@ const Form = () => {
 
                     <select value={budget} onChange={handleBudgetChange} required className='w-full outline-none font-nunito lg:h-12 h-[39px] lg:rounded-none rounded bg-white px-3 text-[#6A6A68]'>
                         <option value="" disabled>What is your budget*</option>
-                        <option value="Budget 1">Budget 1</option>
-                        <option value="Budget 2">Budget 2</option>
+                        <option value="1-3 Lakh">1-3 Lakh</option>
+                        <option value="3-5 Lakh">3-5 Lakh</option>
+                        <option value="6-9 Lakh">6-9 Lakh</option>
+                        <option value="10 Lakh & above">10 Lakh & above</option>
                     </select>
 
                     <input
