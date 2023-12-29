@@ -19,7 +19,7 @@ const ContentSolution = () => {
                             <a href="#contactus">
                                 <div className="bg-white transition-all rounded-[30px] mid hover:text-white ">
                                     <button className="multiverse-text2 font-semibold rounded-[30px] transition-all  text-[20px] py-1 px-7 ">
-                                        Contact
+                                        Contact Us
                                     </button>
                                 </div>
                             </a>
