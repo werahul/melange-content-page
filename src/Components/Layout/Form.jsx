@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { triBlue, triPurple, rock1, rock2 } from '../../assets/decorImg'
-import emailjs from '@emailjs/browser'
+// import emailjs from '@emailjs/browser'
 import { ProgressBar } from 'react-loader-spinner'
 
 
@@ -8,7 +8,6 @@ import { ProgressBar } from 'react-loader-spinner'
 import axios from 'axios'
 
 const Form = () => {
-
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
@@ -70,80 +69,36 @@ const Form = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (validateEmail()) {
-            try {
-                setLoader(true)
-                // Proceed with your form submission or any other action
-                // console.log('Email is valid:', email);
+        try {
+            setLoader(true);
 
-                const formData = {
-                    name,
-                    email,
-                    phone,
-                    need,
-                    budget,
-                    message
+            const formData = {
+                name,
+                email,
+                phone,
+                need,
+                budget,
+                message,
+            };
 
+            // Send form data to nodemailer endpoint
+            const { data } = await axios.post('http://localhost:3001/send-email', formData);
 
-                };
-                const { data } = await axios.post(
-                    // "https://whatsapp-backend-226o.onrender.com/api/image-url",
-                    // "https://orchid-hippo-robe.cyclic.cloud/api/image-url",
-                    {
-                        name: formData.name,
-                        phone: formData.phone,
-                    }
-                );
-                window.location.href = "/thankyou";
-                // console.log({ data });
+            // Reset form fields
+            setName('');
+            setEmail('');
+            setPhone('');
+            setNeed('');
+            setBudget('');
+            setMessage('');
 
-                // service_id, templte_id and public key will get from Emailjs website when you create account and add template service and email service
-                emailjs
-                    .send(
-                        // "service_melangedigital",
-                        // "template_d80pgaj",
-                        {
-                            from_name: formData.name,
-                            to_name: "Sanket Bolinjkar",
-                            from_email: formData.email,
-                            from_phone: formData.phone,
-                            from_need: formData.need,
-                            from_budget: formData.budget,
-                            from_message: formData.message,
+            setLoader(false);
 
-                            to_email: "hello@melangedigital.in",
-                        },
-                        // "11W3shu7B6S46t437"
-                    )
-                    .then(
-                        () => {
-
-
-                            if (formField.current) {
-                                formField.current.reset();
-                            }
-                        },
-                        (error) => {
-                            setLoading(false);
-                            console.log(error);
-                            alert("Something went wrong!");
-                        }
-                    );
-
-                // Reset form fields
-                setName("");
-                setEmail("");
-                setPhone("");
-                setNeed("");
-                setBudget("");
-                setMessage("");
-                setLoader(false)
-            } catch (error) {
-                console.log(error)
-            }
+            // Redirect to the thank you page after successful submission
+            window.location.href = '/thankyou';
+        } catch (error) {
+            console.log(error);
         }
-
-
     };
     return (
         <div className='formSec  pt-[60px] lg:mt-[110px] mt-20 pb-[48px] lg:px-20 px-5 font-nunito relative' id='contactus'>
@@ -162,14 +117,15 @@ const Form = () => {
 
                     <select value={need} onChange={handleNeedChange} required className='w-full outline-none font-nunito lg:h-12 h-[39px] lg:rounded-none rounded bg-white px-3 text-[#6A6A68]'>
                         <option value="" disabled>What do you need*</option>
-                        <option value="option1">Option A</option>
-                        <option value="option2">Option B</option>
+                        <option value="Videography">Videography</option>
+                        <option value="Photography">Photography</option>
+                        <option value="Audio">Audio</option>
                     </select>
 
                     <select value={budget} onChange={handleBudgetChange} required className='w-full outline-none font-nunito lg:h-12 h-[39px] lg:rounded-none rounded bg-white px-3 text-[#6A6A68]'>
                         <option value="" disabled>What is your budget*</option>
-                        <option value="company1">Budget A</option>
-                        <option value="company2">Budget B</option>
+                        <option value="Budget 1">Budget 1</option>
+                        <option value="Budget 2">Budget 2</option>
                     </select>
 
                     <input

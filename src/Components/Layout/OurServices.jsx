@@ -53,8 +53,7 @@ const itemsData = {
     { id: 18, image: Audio3, title: "Song Writing" },
     { id: 19, image: Audio4, title: "Jingle Production" },
     { id: 20, image: Audio5, title: "Voice Over" },
-    { id: 21, image: Audio6, title: "Mixing Master" },
-    { id: 22, image: Audio7, title: "Background Score" },
+    { id: 21, image: Audio7, title: "Background Score" },
   ],
 };
 
@@ -69,11 +68,11 @@ const TagSwitcher = () => {
     const items = itemsData[activeTag];
 
     return (
-      <div className="grid grid-cols-2 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-3 lg:gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-y-10 lg:gap-4">
         {items.map((item) => (
           <div key={item.id} className=" lg:p-4 transition-scale ">
-            <img src={item.image} alt="" />
-            <h3 className="text-center  font-bold multiverse-text text-[18px] lg:text-[24px] font-nunito mt-2">
+            <img src={item.image} alt="" className="w-full"/>
+            <h3 className="text-center  font-bold multiverse-text text-[21px] lg:text-[24px] font-nunito mt-2">
               {item.title}
             </h3>
           </div>
@@ -83,7 +82,7 @@ const TagSwitcher = () => {
   };
 
   return (
-    <div className="max-container mx-auto mt-32">
+    <div className="max-container mx-auto lg:mt-32 mt-0">
       <div className="text-center font-nunito">
         <span className="text-black text-3xl lg:text-5xl font-bold font-['Nunito Sans'] leading-[56px]">
           Our{" "}
@@ -92,7 +91,7 @@ const TagSwitcher = () => {
           Services
         </span>
       </div>
-      <div className="flex justify-center my-4 lg:my-[32px] font-nunito space-x-4">
+      <div className="flex justify-center my-4 lg:my-[32px] font-nunito lg:space-x-4 space-x-2">
         <TagButton
           tag="Videography"
           activeTag={activeTag}
@@ -117,7 +116,7 @@ const TagButton = ({ tag, activeTag, switchTag }) => {
         activeTag === tag
           ? "border-blue-600 multiverse-text"
           : "border-neutral-400 text-[#979797]"
-      } px-4 py-2 rounded-full outline-none transition-all border text-base lg:text-lg font-semibold `}
+      } lg:px-4 px-2 py-2 rounded-full outline-none transition-all border text-base lg:text-lg font-semibold `}
       onClick={() => switchTag(tag)}
     >
       {tag}

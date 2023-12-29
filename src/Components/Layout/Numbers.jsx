@@ -31,13 +31,13 @@ const CountingNumber = ({ value, duration }) => {
 
 const OurJourney = () => {
   return (
-    <div className="font-nunito mt-16 lg:mt-[120px] max-container pt-10 lg:pt-[85px] pl-[30px] 2xl:w-[1200px] mx-auto  numbersBg h-auto lg:h-[224px]">
+    <div className="font-nunito mt-16 lg:mt-[120px] max-container pt-10 lg:pt-[85px] lg:pl-[30px] 2xl:w-[1200px] mx-auto  numbersBg h-auto lg:h-[224px]">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center">
-        <div className="w-auto md:w-full grid grid-cols-3 lg:grid-cols-5 gap-y-16 gap-x-4 md:gap-x-0 mx-0 md:mx-20 ">
+        <div className="w-auto md:w-full grid grid-cols-3 lg:grid-cols-5 lg:gap-y-16 gap-x-4 md:gap-x-0 mx-0 md:mx-20 ">
           <div className="text-center mb-10 md:mb-0">
             {/* <img src={clients} alt="" className="mb-3 w-20 h-16 mx-auto" /> */}
             <h2 className="font-bold text-2xl md:text-3xl lg:text-6xl">
-              <CountingNumber value={505} duration={2} />{" "}
+              <CountingNumber value={805} duration={3} />{" "}
               <span className="-ml-1 lg:-ml-4">+</span>
             </h2>
             <p className="text-md md:text-xl">Projects Delivered</p>
@@ -52,27 +52,28 @@ const OurJourney = () => {
             </h2>
             <p className=" text-md md:text-xl">Years of Experience</p>
           </div>
-          <div className="text-center mb-10 md:mb-0">
-            {/* <img src={reach} alt="" className="mb-3 w-20 h-16 mx-auto" /> */}
-            <h2 className="font-bold text-2xl md:text-3xl lg:text-6xl">
-              <CountingNumber value={31} duration={2} />{" "}
-              <span className="-ml-1 lg:-ml-4">+</span>
-            </h2>
-            <p className=" text-md md:text-xl">Brands</p>
-          </div>
-          <div className="text-center mb-10 md:mb-0">
+          
+          <div className="text-center mb-10 md:mb-0 ">
             {/* <img src={reach} alt="" className="mb-3 w-20 h-16 mx-auto" /> */}
             <h2 className="font-bold text-2xl md:text-3xl lg:text-6xl">
               <CountingNumber value={26} duration={2} />{" "}
               <span className="-ml-1 lg:-ml-4">+</span>
             </h2>
-            <p className="text-md md:text-xl">Industries & Sectors</p>
+            <p className="text-md md:text-xl  ">Industries & Sectors</p>
           </div>
-          <div className="text-center">
+          <div className="text-center mb-10 md:mb-0 ml-10 lg:ml-0 w-[140%] lg:w-auto">
+            {/* <img src={reach} alt="" className="mb-3 w-20 h-16 mx-auto" /> */}
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-6xl">
+              <CountingNumber value={101} duration={2} />{" "}
+              <span className="-ml-1 lg:-ml-4">+</span>
+            </h2>
+            <p className=" text-md md:text-xl">Brands</p>
+          </div>
+          <div className="text-center ml-10 lg:ml-0 w-[140%] lg:w-auto">
             {/* <img src={campaigns} alt="" className="mb-3 w-20 h-16 mx-auto" /> */}
             <h2 className="font-bold text-2xl md:text-3xl lg:text-6xl">
               <CountingNumber value={2} duration={3} />{" "}
-              <span className="-ml-1 lg:-ml-4">B+</span>
+              <span className="-ml-1 lg:-ml-4">Bn+</span>
             </h2>
             <p className=" text-md md:text-xl">Views</p>
           </div>

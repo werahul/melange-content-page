@@ -13,4 +13,5 @@ export {default as Numbers} from "./Numbers";
 export {default as CreativeCrew} from "./CreativeCrew";
 export {default as OurServices} from "./OurServices";
 export {default as CTAButton} from "./CTAButton";
+export {default as Testimonials} from "./Testimonials";
 

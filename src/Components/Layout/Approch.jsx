@@ -4,21 +4,23 @@ import { wave, wavePurple } from '../../assets/decorImg'
 
 const Approch = () => {
     return (
-        <div className=' lg:-mt-[50px] -mt-[120px] relative lg:px-0 px-5'>
+        <div className=' lg:-mt-[50px] -mt-[70px] relative lg:px-0 px-5'>
             <div className="flex justify-center items-center">
                 <div><span className="text-black lg:text-5xl text-3xl font-bold font-nunito lg:leading-[56px]">Our </span><span className="multiverse-text lg:text-5xl text-3xl font-bold font-nunito lg:leading-[56px]">Approach</span></div>
             </div>
             <div className="max-container lg:px-[150px] lg:mt-[75px] mt-[40px] ">
                 <div className="lg:flex justify-center items-center ">
                     <div className="lg:w-[30%] lg:mb-0 mb-3">
-                        <img src={app1} alt="" className='w-28 lg:w-auto' />
+                        <img src={app1} alt="" className='w-24 lg:w-auto' />
                     </div>
                     <div className="lg:w-[70%] lg:text-center text-left ">
                         <div className="text-blue-600 lg:text-[32px] text-[20px] font-bold font-nunito lg:leading-[48px]">Stage 1: Brief Call</div>
-                        <div className="lg:text-center text-left text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt-5 mt-2">We start each project on the right note by delving into the essence of your brand, understanding your unique selling propositions (USPs), business challenges & the outcomes you aspire to achieve. It's not just a call; it's the first step toward a collaborative journey where your vision becomes our mission.</div>
+                        <div className="lg:text-center text-left text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt-5 mt-2">
+                            We deep dive into your market dynamics and analyze audience insights. This becomes the basis for meticulously crafting a roadmap and blueprint that guide every aspect of our video and photography production.
+                        </div>
                     </div>
                 </div>
-                <img src={line} alt="" className='lg:my-14 my-5' />
+                <img src={line} alt="" className='lg:my-10 my-5' />
                 <div className="flex flex-col-reverse lg:flex-row  justify-center lg:items-center lg:space-x-[100px] ">
 
                     <div className="lg:w-[75%] lg:text-center text-left ">
@@ -26,41 +28,45 @@ const Approch = () => {
                         <div className="lg:text-center text-left text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt- mt-2">We dive into the depths of your industry, market dynamics, and audience insights. This is the foundation for crafting a roadmap and blueprint that guides every nuance of our video and photography production.</div>
                     </div>
                     <div className="lg:w-[25%] lg:mb-0 mb-3">
-                        <img src={app2} alt="" className='w-28 lg:w-auto'/>
+                        <img src={app2} alt="" className='w-24 lg:w-auto' />
                     </div>
                 </div>
-                <img src={line} alt="" className='lg:my-14 my-5' />
+                <img src={line} alt="" className='lg:my-10 my-5' />
                 <div className="lg:flex  justify-center items-center ">
                     <div className="lg:w-[30%] lg:mb-0 mb-3">
-                        <img src={app3} alt="" className='lg:w-auto w-28'/>
+                        <img src={app3} alt="" className='lg:w-auto w-24' />
                     </div>
                     <div className="lg:w-[70%] lg:text-center text-left ">
                         <div className="text-blue-600 lg:text-[32px] text-[20px] font-bold font-nunito lg:leading-[48px] ">Stage 3: Pre-Production</div>
                         <div className="lg:text-center text-left text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt-5 mt-2">Based on our data-backed insights from research, we seamlessly transition into the Pre-Production phase. Here, the team meticulously crafts scripts and evokes visual atmospheres through moodboards.</div>
                     </div>
                 </div>
-                <img src={line} alt="" className='lg:my-14 mt-5' />
+                <img src={line} alt="" className='lg:my-10 my-5' />
                 <div className="flex lg:flex-row flex-col-reverse  justify-center lg:items-center lg:space-x-[100px] ">
 
-                    <div className="lg:w-[75%] lg:text-center ">
+                    <div className="lg:w-[82%] lg:text-center ">
                         <div className="text-blue-600 lg:text-[32px] text-[20px] font-bold font-nunito lg:leading-[48px]">Stage 4: Production</div>
-                        <div className="lg:text-center text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt-5 mt-2">Our production team takes on the project equipped with top-quality gear to breathe life into your brand story, ensuring it's brought to life in the best possible way.</div>
+                        <div className="lg:text-center text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt-5 mt-2">
+                            Our production team takes on your project equipped with top-quality gear, breathing life into your brand story. We ensure it is portrayed with the utmost excellence and attention to details to fulfill your business objectives.
+                        </div>
                     </div>
-                    <div className="lg:w-[25%] lg:mb-0 mb-2">
-                        <img src={app4} alt="" className='lg:w-auto w-28'/>
+                    <div className="lg:w-[23%] lg:mb-0 mb-2">
+                        <img src={app4} alt="" className='lg:w-auto w-24' />
                     </div>
                 </div>
-                <img src={line} alt="" className='lg:my-14 my-5' />
+                <img src={line} alt="" className='lg:my-10 my-5' />
                 <div className="lg:flex  justify-center items-center ">
                     <div className="lg:w-[30%] lg:mb-0 mb-2">
-                        <img src={app5} alt="" className='lg:w-auto w-28'/>
+                        <img src={app5} alt="" className='lg:w-auto w-24' />
                     </div>
                     <div className="lg:w-[70%] lg:text-center ">
                         <div className="text-blue-600 lg:text-[32px] text-[20px] font-bold font-nunito lg:leading-[48px]">Stage 5: Post-Production</div>
-                        <div className="lg:text-center text-zinc-900 lg:text-2xl font-normal font-nunito lf:leading-[34px] lg:mt-5 mt-2">Our production team takes on the project equipped with top-quality gear to breathe life into your brand story, ensuring it's brought to life in the best possible way.</div>
+                        <div className="lg:text-center text-zinc-900 lg:text-2xl font-normal font-nunito lf:leading-[34px] lg:mt-5 mt-2">
+                            We enhance the raw content with advanced editing software, refine audio elements, and incorporate seamless transitions. This ensures the delivery of a project that not only meets but exceeds your expectations.
+                        </div>
                     </div>
                 </div>
-                <img src={line} alt="" className='lg:my-14 my-5' />
+                <img src={line} alt="" className='lg:my-10 my-5' />
                 <div className="flex lg:flex-row flex-col-reverse justify-center lg:items-center lg:space-x-[100px] ">
 
                     <div className="lg:w-[77%] lg:text-center ">
@@ -68,7 +74,7 @@ const Approch = () => {
                         <div className="lg:text-center text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt-5 mt-2">We ensure your content reaches the right audience through strategic media placement. Additionally, we assist you in analyzing the impact of your online campaigns through comprehensive data and reports.</div>
                     </div>
                     <div className="lg:w-[23%] lg:mb-0 mb-3">
-                        <img src={app6} alt="" className='lg:w-auto w-28' />
+                        <img src={app6} alt="" className='lg:w-auto w-24' />
                     </div>
                 </div>
 

@@ -3,7 +3,7 @@ import { c1, c2, c3, c4, c5, c6 } from "../../assets/images";
 
 const CreativeCrew = () => {
   return (
-    <div className="max-container font-nunito mt-[100px] px-5 lg:px-[100px]">
+    <div className="max-container font-nunito lg:mt-[100px] mt-[70px] px-5 lg:px-[100px]">
       <div className="text-center">
         <span className="text-black text-3xl lg:text-5xl font-bold font-nunito leading-[28px] lg:leading-[56px]">
           Your{" "}
@@ -17,7 +17,7 @@ const CreativeCrew = () => {
           <img
             src={c1}
             alt=""
-            className="h-auto lg:h-[435px] w-full lg:w-[369px] mb-[20px]"
+            className="h-auto lg:h-[435px] w-full lg:w-[369px] lg:mb-[20px] mb-3"
           />
           <h4 className="multiverse-text  font-bold text-[18px] lg:text-[24px]">
             {" "}
@@ -32,7 +32,7 @@ const CreativeCrew = () => {
           <img
             src={c2}
             alt=""
-            className="h-auto lg:h-[435px] w-full lg:w-[369px] mb-[20px]"
+            className="h-auto lg:h-[435px] w-full lg:w-[369px] lg:mb-[20px] mb-3"
           />
           <h4 className="multiverse-text font-bold text-[18px] lg:text-[24px]">
             {" "}
@@ -47,7 +47,7 @@ const CreativeCrew = () => {
           <img
             src={c3}
             alt=""
-            className="h-auto lg:h-[435px] w-full lg:w-[369px] mb-[20px]"
+            className="h-auto lg:h-[435px] w-full lg:w-[369px] lg:mb-[20px] mb-3"
           />
           <h4 className="multiverse-text font-bold text-[18px] lg:text-[24px]">
             {" "}
@@ -62,7 +62,7 @@ const CreativeCrew = () => {
           <img
             src={c4}
             alt=""
-            className="h-auto lg:h-[435px] w-full lg:w-[369px] mb-[20px]"
+            className="h-auto lg:h-[435px] w-full lg:w-[369px] lg:mb-[20px] mb-3"
           />
           <h4 className="multiverse-text font-bold text-[18px] lg:text-[24px]">
             {" "}
@@ -78,7 +78,7 @@ const CreativeCrew = () => {
           <img
             src={c5}
             alt=""
-            className="h-auto lg:h-[435px] w-full lg:w-[369px] mb-[20px]"
+            className="h-auto lg:h-[435px] w-full lg:w-[369px] lg:mb-[20px] mb-3"
           />
           <h4 className="multiverse-text font-bold text-[18px] lg:text-[24px]">
             {" "}
@@ -93,7 +93,7 @@ const CreativeCrew = () => {
           <img
             src={c6}
             alt=""
-            className="h-auto lg:h-[435px] w-full lg:w-[369px] mb-[20px]"
+            className="h-auto lg:h-[435px] w-full lg:w-[369px] lg:mb-[20px] mb-3"
           />
           <h4 className="multiverse-text font-bold text-[18px] lg:text-[24px]">
             {" "}

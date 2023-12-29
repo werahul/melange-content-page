@@ -1,17 +1,13 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import { Preloader } from './Components/Layout';
-import { Home } from './Components/Pages';
-
+import { Home, HomeWithLoader, Thankyou } from './Components/Pages';
 
 const App = () => {
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate some asynchronous task (e.g., API call) that takes time
     const fetchData = async () => {
-      // Your asynchronous task here
-      // For demonstration purposes, using a setTimeout to simulate loading
       setTimeout(() => {
         setLoading(false);
       }, 3000);
@@ -19,15 +15,15 @@ const App = () => {
 
     fetchData();
   }, []);
+
   return (
-    <div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" Component={HomeWithLoader}></Route>
+        <Route path="/thankyou" Component={Thankyou}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-      {loading ? <Preloader /> : <Home/>}
-
-
-
-    </div>
-  )
-}
-
-export default App
+export default App;

@@ -3,7 +3,7 @@ import React from "react";
 
 const AutoScrollHeader1 = ({ images, title }) => {
   return (
-    <div className="lg:pt-[20px] pt-[30px] ">
+    <div className="lg:pt-[20px] pt-[10px] ">
       
       <div className="marquee">
         <div className="marqueeGroupSec">

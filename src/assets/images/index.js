@@ -77,6 +77,7 @@ import c3 from "./C3.png";
 import c4 from "./C4.png";
 import c5 from "./C5.png";
 import c6 from "./C6.png";
+import check2 from "./check2.png";
 
 export {cs1, head1 ,head2, head3, head4, head5, head6, head7, head8,
 sec1, sec2, sec3, sec4, sec5, sec6, sec7, sec8, sec9,
@@ -90,6 +91,7 @@ c1,
   c4,
   c5,
   c6,
+  check2,
   Audio1,
   Audio2,
   Audio3,
