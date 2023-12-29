@@ -4,7 +4,7 @@ import { wave, wavePurple } from '../../assets/decorImg'
 
 const Approch = () => {
     return (
-        <div className=' lg:-mt-[50px] -mt-[70px] relative lg:px-0 px-5'>
+        <div className=' lg:-mt-[50px] -mt-[70px] relative lg:px-0 px-5' id='ourapproach'>
             <div className="flex justify-center items-center">
                 <div><span className="text-black lg:text-5xl text-3xl font-bold font-nunito lg:leading-[56px]">Our </span><span className="multiverse-text lg:text-5xl text-3xl font-bold font-nunito lg:leading-[56px]">Approach</span></div>
             </div>

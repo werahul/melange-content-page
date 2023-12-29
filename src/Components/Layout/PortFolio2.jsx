@@ -468,7 +468,7 @@ const TagComponent = () => {
   };
 
   return (
-    <div className="p-4 lg:mt-20 mt-10">
+    <div className="p-4 lg:mt-20 mt-10" id="portfolio">
       <div className="text-center font-nunito mb-10">
         <span className="text-black text-3xl lg:text-5xl font-bold font-nunito leading-[56px]">
           Our{" "}

@@ -68,7 +68,7 @@ const TagSwitcher = () => {
     const items = itemsData[activeTag];
 
     return (
-      <div className="grid grid-cols-1 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-y-10 lg:gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-y-10 lg:gap-4" id="services">
         {items.map((item) => (
           <div key={item.id} className=" lg:p-4 transition-scale ">
             <img src={item.image} alt="" className="w-full"/>

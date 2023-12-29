@@ -49,98 +49,131 @@ const Navbar = () => {
           }`}
         >
           <div className="navbar-div cursor-pointer">
-            <div
-              to=""
+            <a
+              href="#clients"
               activeClassName="active-div"
               exact
               className={` nav-div`}
             >
               Clients
-            </div>
+            </a>
           </div>
           <div className="navbar-div cursor-pointer">
-            <div
-              to=""
+            <a
+              href="#services"
               activeClassName="active-div"
               exact
               className={` nav-div`}
             >
               Services
-            </div>
+            </a>
           </div>
           <div className="navbar-div cursor-pointer">
-            <div
+            <a
+              href="#portfolio"
               to=""
               activeClassName="active-div"
               exact
               className={` nav-div`}
             >
               Portfolio
-            </div>
+            </a>
           </div>
           <div className="navbar-div cursor-pointer">
-            <div
-              to=""
+            <a
+              href="#industries"
               activeClassName="active-div"
               exact
               className={` nav-div`}
             >
               Industries Served
-            </div>
+            </a>
           </div>
           <div className="navbar-div cursor-pointer">
-            <div to="" activeClassName="active-div" exact className={`nav-div`}>
+            <a
+              href="#ourapproach"
+              to=""
+              activeClassName="active-div"
+              exact
+              className={`nav-div`}
+            >
               Our Approach
-            </div>
+            </a>
           </div>
           <div className="navbar-contact shadow-lg rounded-full px-3 py-1.5 hover:bg-blue-600 transition-all cursor-pointer bg-[#1A1A1A] font-medium text-[17px] text-[#fff] hidden sm:block">
-            <div to="" activeClassName="active-div" exact className="nav-div">
-              Contact Us
-            </div>
+            <a href="#contactus">
+              <div to="" activeClassName="active-div" exact className="nav-div">
+                Contact Us
+              </div>
+            </a>
           </div>
         </div>
       </div>
       {isMenuOpen && (
         <div className="sm:hidden">
           <div className="bg-[submit-bg] flex flex-col items-start pt-6 pl-4 hover:multiverse-text pb-20 justify-between h-[40%] font-medium">
-            <div className="navbar-div cursor-pointer ">
-              <div
-                to=""
-                activeClassName="active-div"
-                exact
-                className="nav-div text-[25px] my-8 "
-              >
-                Services
+            <div className="navbar-div space-y-10 px-3 text-[20px] cursor-pointer ">
+              <div className="navbar-div cursor-pointer">
+                <a
+                  href="#clients"
+                  activeClassName="active-div"
+                  exact
+                  className={` nav-div`}
+                >
+                  Clients
+                </a>
               </div>
-            </div>
-            <div className="navbar-div cursor-pointer">
-              <div
-                to=""
-                activeClassName="active-div"
-                exact
-                className="nav-div text-[25px] "
-              >
-                Work
+              <div className="navbar-div cursor-pointer">
+                <a
+                  href="#services"
+                  activeClassName="active-div"
+                  exact
+                  className={` nav-div`}
+                >
+                  Services
+                </a>
               </div>
-            </div>
-            <div className="navbar-div cursor-pointer">
-              <div
-                to=""
-                activeClassName="active-div"
-                exact
-                className="nav-div text-[25px] py-4 "
-              >
-                About Us
+              <div className="navbar-div cursor-pointer">
+                <a
+                  href="#portfolio"
+                  to=""
+                  activeClassName="active-div"
+                  exact
+                  className={` nav-div`}
+                >
+                  Portfolio
+                </a>
               </div>
-            </div>
-            <div className="navbar-div cursor-pointer">
-              <div
-                to=""
-                activeClassName="active-div"
-                exact
-                className="nav-div text-[25px] py-2 px-3"
-              >
-                Contact Us
+              <div className="navbar-div cursor-pointer">
+                <a
+                  href="#industries"
+                  activeClassName="active-div"
+                  exact
+                  className={` nav-div`}
+                >
+                  Industries Served
+                </a>
+              </div>
+              <div className="navbar-div cursor-pointer">
+                <a
+                  href="#ourapproach"
+                  to=""
+                  activeClassName="active-div"
+                  exact
+                  className={nav-div}
+                >
+                  Our Approach
+                </a>
+              </div>
+              <div className="navbar-div cursor-pointer">
+                <a
+                  href="#contactus"
+                  activeClassName="active-div"
+                  exact
+                  className={nav-div}
+                >
+                  Contact Us
+                </a>
               </div>
             </div>
           </div>

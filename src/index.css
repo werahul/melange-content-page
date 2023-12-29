@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 .max-container {
     @apply mx-auto max-w-[1440px];
 }
