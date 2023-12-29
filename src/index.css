@@ -577,3 +577,35 @@
   .whatsapp-icon {
     margin-right: 5px;
   } */
+
+.multiverse-text3 {
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-bottom: 1.8px solid #D940ff;
+    text-fill-color: transparent;
+    /* text-decoration: underline 1px #3858FF !important; */
+
+
+}
+
+.multiverse-text4 {
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-bottom: 1.8px solid #D940ff;
+    text-fill-color: transparent;
+}
+
+
+
+.multiverse-text4:hover {
+    background: black;
+    -webkit-background-clip: black;
+    -webkit-text-fill-color: white;
+    background-clip: black;
+    border-bottom: 1.8px solid #D940ff;
+    text-fill-color: white;
+}
