@@ -46,22 +46,22 @@ const TagComponent = () => {
     Videography: {
       All: [
         {
-          title: "Click Studio - Brand Video",
+          title: "Click Studio - Software & Technology",
           videoUrl:
             "https://www.youtube.com/embed/-7DpxE8sAW4?si=sYpomtloztsURuMs",
         },
         {
-          title: "Addverb-Brand Video",
+          title: "Addverb - Software & Technology",
           videoUrl:
             "https://www.youtube.com/embed/1ht3mpNXN88?si=WqGgSnNuWUehbBFk",
         },
         {
-          title: "Succesive Tech - Brand Video",
+          title: "Successive Tech- Software & Technology",
           videoUrl:
             "https://www.youtube.com/embed/aARCoqbBVbk?si=InSYDoGvmdcS_q-3",
         },
         {
-          title: "Melange Digital - Brand Video",
+          title: "Mélange Digital - Entertainment & Media",
           videoUrl:
             "https://www.youtube.com/embed/xmoZepORbQM?si=O9plaJqRLE_QmZo-",
         },
@@ -133,22 +133,22 @@ const TagComponent = () => {
       ],
       "Brand Videos": [
         {
-          title: "Click Studio - Brand Video",
+          title: "Click Studio - Software & Technology",
           videoUrl:
             "https://www.youtube.com/embed/-7DpxE8sAW4?si=sYpomtloztsURuMs",
         },
         {
-          title: "Addverb-Brand Video",
+          title: "Addverb - Software & Technology",
           videoUrl:
             "https://www.youtube.com/embed/1ht3mpNXN88?si=WqGgSnNuWUehbBFk",
         },
         {
-          title: "Succesive Tech - Brand Video",
+          title: "Successive Tech- Software & Technology",
           videoUrl:
             "https://www.youtube.com/embed/aARCoqbBVbk?si=InSYDoGvmdcS_q-3",
         },
         {
-          title: "Melange Digital - Brand Video",
+          title: "Mélange Digital - Entertainment & Media",
           videoUrl:
             "https://www.youtube.com/embed/xmoZepORbQM?si=O9plaJqRLE_QmZo-",
         },
@@ -468,7 +468,7 @@ const TagComponent = () => {
   };
 
   return (
-    <div className="p-4 lg:mt-20 mt-10" id="portfolio">
+    <div className="p-4">
       <div className="text-center font-nunito mb-10">
         <span className="text-black text-3xl lg:text-5xl font-bold font-nunito leading-[56px]">
           Our{" "}
