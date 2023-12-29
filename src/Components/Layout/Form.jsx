@@ -103,7 +103,7 @@ const Form = () => {
     return (
         <div className='formSec  pt-[60px] lg:mt-[110px] mt-20 pb-[48px] lg:px-20 px-5 font-nunito relative' id='contactus'>
             <div className="lg:text-center text-zinc-900 lg:text-[40px] text-2xl font-semibold lg:leading-[48px] leading-[34px]">Want impactful content? Share your details here</div>
-            <div className="lg:px-[15%] lg:text-center text-black lg:text-xl text-base font-normal lg:leading-[30px] mt-2">Our production team will connect with you to understand your unique needs, budget, and desired outcomes, ensuring the delivery of content that drives results.
+            <div className="lg:px-[15%] lg:text-center text-black lg:text-xl text-base font-normal lg:leading-[30px] mt-2">Our team will connect with you to understand your unique needs, budget, and desired outcomes, ensuring the delivery of content that drives results.
             </div>
             <form onSubmit={handleSubmit} ref={formField}>
                 <div className=" max-container grid lg:grid-cols-2 grid-cols-1 lg:gap-6 lg:gap-y-6 gap-y-3 lg:mt-9 mt-6 lg:px-[8%]">
@@ -133,8 +133,7 @@ const Form = () => {
                     <input
                         value={message}
                         onChange={handleMessageChange}
-                        required
-                        placeholder='Your message*'
+                        placeholder='Your message'
                         className='w-full outline-none font-nunito lg:h-12 h-[39px] lg:rounded-none rounded bg-white p-3 text-[#6A6A68] placeholder-[#6A6A68] resize-none'
                     />
 

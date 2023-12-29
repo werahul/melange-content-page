@@ -25,18 +25,18 @@ const Footer = () => {
                         <h2 className="font-bold text-lg md:text-xl mb-2 md:mb-0 ">
                             Quick Links
                         </h2>
-                        <div className="lg:mt-5">
+                        <div className="lg:mt-1">
                             <ul className="">
                                 <a href="#services"><li className="hover:underline">Services</li></a>
-                                <a href="#clients"><li className="lg:my-3 my-1 hover:underline">Clients</li></a>
+                                <a href="#clients"><li className="lg:my-2 my-1 hover:underline">Clients</li></a>
                                 <a href="#portfolio"><li className="hover:underline">Portfolio</li></a>
                             </ul>
                         </div>
                     </div>
 
                 </div>
-                <div className="translate-x-0 space-y-4 lg:translate-x-[20%] flex flex-col mt-5 md:mt-0">
-                    <div className="lg:mb-6 ">
+                <div className="translate-x-0  lg:translate-x-[20%] flex flex-col mt-5 md:mt-0">
+                    <div className="lg:mb-2 ">
                         <h2 className="font-bold text-lg md:text-xl mb-0 md:mb-0">
                             Call Us
                         </h2>
@@ -47,7 +47,7 @@ const Footer = () => {
                             +91 7700974123
                         </a>
                     </div>
-                    <div className="mb-2 md:mb-0 ml-0 md:ml-0">
+                    <div className="mb-2 md:mb-0 ml-0 md:ml-0 lg:mt-2">
                         <h2 className="font-bold text-lg md:text-xl mb-0 md:mb-0">
                             Email Us
                         </h2>
@@ -58,7 +58,7 @@ const Footer = () => {
                             hello@melangedigital.in
                         </a>
                     </div>
-                    <div className="mb-2 md:mb-0 ml-0 md:ml-0 lg:mt-10">
+                    <div className="mb-2 md:mb-2 ml-0 md:ml-0 lg:mt-4">
                         <h2 className="font-bold text-lg md:text-xl mb-0 md:mb-0">
                             Connect with us
                         </h2>
