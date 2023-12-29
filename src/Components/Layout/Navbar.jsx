@@ -10,6 +10,11 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
+  // const handleClick = () => {
+  //   if (isMenuOpen) {
+  //     setMenuOpen(!isMenuOpen);
+  //   }
+  // }
 
   return (
     <div className="fixed bg-white z-10 shadow-md w-full">
@@ -44,9 +49,8 @@ const Navbar = () => {
           </button>
         </div>
         <div
-          className={`hidden sm:flex font-extrabold text-[17px] justify-around items-center w-2/3 md:w-[60%] lg:w-[70%] ${
-            isMenuOpen ? "hidden" : ""
-          }`}
+          className={`hidden sm:flex font-extrabold text-[17px] justify-around items-center w-2/3 md:w-[60%] lg:w-[70%] ${isMenuOpen ? "hidden" : ""
+            }`}
         >
           <div className="navbar-div cursor-pointer">
             <a
@@ -119,6 +123,7 @@ const Navbar = () => {
                   activeClassName="active-div"
                   exact
                   className={` nav-div`}
+                  onClick={toggleMenu}
                 >
                   Clients
                 </a>
@@ -129,6 +134,7 @@ const Navbar = () => {
                   activeClassName="active-div"
                   exact
                   className={` nav-div`}
+                  onClick={toggleMenu}
                 >
                   Services
                 </a>
@@ -140,6 +146,7 @@ const Navbar = () => {
                   activeClassName="active-div"
                   exact
                   className={` nav-div`}
+                  onClick={toggleMenu}
                 >
                   Portfolio
                 </a>
@@ -150,6 +157,7 @@ const Navbar = () => {
                   activeClassName="active-div"
                   exact
                   className={` nav-div`}
+                  onClick={toggleMenu}
                 >
                   Industries Served
                 </a>
@@ -160,7 +168,8 @@ const Navbar = () => {
                   to=""
                   activeClassName="active-div"
                   exact
-                  className={nav-div}
+                  className={`nav-div`}
+                  onClick={toggleMenu}
                 >
                   Our Approach
                 </a>
@@ -170,7 +179,8 @@ const Navbar = () => {
                   href="#contactus"
                   activeClassName="active-div"
                   exact
-                  className={nav-div}
+                  className={`nav-div`}
+                  onClick={toggleMenu}
                 >
                   Contact Us
                 </a>

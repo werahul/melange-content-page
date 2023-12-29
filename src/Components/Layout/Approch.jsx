@@ -16,7 +16,7 @@ const Approch = () => {
                     <div className="lg:w-[70%] lg:text-center text-left ">
                         <div className="text-blue-600 lg:text-[32px] text-[20px] font-bold font-nunito lg:leading-[48px]">Stage 1: Brief Call</div>
                         <div className="lg:text-center text-left text-zinc-900 lg:text-2xl text-base font-normal font-nunito lg:leading-[34px] lg:mt-5 mt-2">
-                            We dive into the essence of your brand, understanding your USPs, business challenges & goals. It's not just a call; it's the first step toward a collaborative journey where your vision becomes our mission.
+                            We really get to know your brand inside out, understanding your USPs, business challenges & goals. It's not just a call; it's the first step toward a collaborative journey where your vision becomes our mission.
                         </div>
                     </div>
                 </div>
