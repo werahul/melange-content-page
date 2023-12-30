@@ -66,27 +66,27 @@ const TagComponent = () => {
             "https://www.youtube.com/embed/xmoZepORbQM?si=O9plaJqRLE_QmZo-",
         },
         {
-          title: "Xebia Academia - Product Video",
+          title: "Xebia Academia - Education",
           videoUrl:
             "https://www.youtube.com/embed/eapyKX-_erM?si=li-nK_Hy2MsKhWjc",
         },
         {
-          title: "Puma Gurgaon - Digital Ads",
+          title: "Puma - Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/gyWE1W1WcMo?si=wguJOPgEZqD0PqA8",
         },
         {
-          title: "Puma Mumbai - Digital Ads",
+          title: "Puma - Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/SgvDVYv3JUU?si=_IW6Vs_5AsosEZGU",
         },
         {
-          title: "Skechers Jaipur - Digital Ads",
+          title: "Skechers- Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/--mFE3ZbFXM?si=_d38a5HDHxc6uLHJ",
         },
         {
-          title: "Skechers Mumbai - Digital Ads",
+          title: "Skechers- Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/QBeEA4_Fsak?si=_Bic_ULDcNtjiyze",
         },
@@ -96,31 +96,31 @@ const TagComponent = () => {
             "https://www.youtube.com/embed/vMw3USNmiAw?si=V4Vl1kNw9TrOjiO6",
         },
         {
-          title: "Swarovski - Digital Ads",
+          title: "Swarvoski - Jewellery",
           videoUrl:
             "https://www.youtube.com/embed/JLBsWSkugho?si=_xGsMoPxLvTcocWW",
         },
         {
-          title: "Pepperfry | Balcony Film - Digital Ads",
+          title: "Pepperfry - Retail & E-commerce",
           videoUrl:
             "https://www.youtube.com/embed/ie0v1g3-jow?si=UE5l-I_BOXWDcFv6",
         },
         {
-          title: "Pepperfry | Home office film - Digital Ads",
+          title: "Pepperfry - Retail & E-commerce",
           videoUrl:
             "https://www.youtube.com/embed/X_s9Ap--QCc?si=J7wjeofdOXAJjNFp",
         },
         {
-          title: "Taj Opener - Animation",
+          title: "Taj - Hospitality & Travel",
           videoUrl:
             "https://www.youtube.com/embed/PhMTAIYgL9s?si=V5pjJ-SSNvfUrGb1",
         },
         {
-          title: "IIFL Whatsapp animation | Series 01 - Animation",
+          title: "IIFL - Finance",
           videoUrl: "https://youtube.com/embed/b294qldYrVo?si=Kr_75tp0BSVLTz2U",
         },
         {
-          title: "IIFL Whatsapp animation | Series 02 - Animation",
+          title: "IIFL - Finance",
           videoUrl: "https://youtube.com/embed/Y0IKGtu7m4A?si=ECAUpKl75fRBldqA",
         },
         {
@@ -175,7 +175,7 @@ const TagComponent = () => {
       ],
       "Product Videos": [
         {
-          title: "Xebia Academia - Product Video",
+          title: "Xebia Academia - Education",
           videoUrl:
             "https://www.youtube.com/embed/eapyKX-_erM?si=li-nK_Hy2MsKhWjc",
         },
@@ -204,22 +204,22 @@ const TagComponent = () => {
       ],
       "Digital Ads": [
         {
-          title: "Puma Gurgaon - Digital Ads",
+          title: "Puma - Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/gyWE1W1WcMo?si=wguJOPgEZqD0PqA8",
         },
         {
-          title: "Puma Mumbai - Digital Ads",
+          title: "Puma - Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/SgvDVYv3JUU?si=_IW6Vs_5AsosEZGU",
         },
         {
-          title: "Skechers Jaipur - Digital Ads",
+          title: "Skechers- Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/--mFE3ZbFXM?si=_d38a5HDHxc6uLHJ",
         },
         {
-          title: "Skechers Mumbai - Digital Ads",
+          title: "Skechers- Beauty & Fashion",
           videoUrl:
             "https://www.youtube.com/embed/QBeEA4_Fsak?si=_Bic_ULDcNtjiyze",
         },
@@ -229,33 +229,33 @@ const TagComponent = () => {
             "https://www.youtube.com/embed/vMw3USNmiAw?si=V4Vl1kNw9TrOjiO6",
         },
         {
-          title: "Swarovski - Digital Ads",
+          title: "Swarvoski - Jewellery",
           videoUrl:
             "https://www.youtube.com/embed/JLBsWSkugho?si=_xGsMoPxLvTcocWW",
         },
         {
-          title: "Pepperfry | Balcony Film - Digital Ads",
+          title: "Pepperfry - Retail & E-commerce",
           videoUrl:
             "https://www.youtube.com/embed/ie0v1g3-jow?si=UE5l-I_BOXWDcFv6",
         },
         {
-          title: "Pepperfry | Home office film - Digital Ads",
+          title: "Pepperfry - Retail & E-commerce",
           videoUrl:
             "https://www.youtube.com/embed/X_s9Ap--QCc?si=J7wjeofdOXAJjNFp",
         },
       ],
       "Animation & Motion Graphics": [
         {
-          title: "Taj Opener - Animation",
+          title: "Taj - Hospitality & Travel",
           videoUrl:
             "https://www.youtube.com/embed/PhMTAIYgL9s?si=V5pjJ-SSNvfUrGb1",
         },
         {
-          title: "IIFL Whatsapp animation | Series 01 - Animation",
+          title: "IIFL - Finance",
           videoUrl: "https://youtube.com/embed/b294qldYrVo?si=Kr_75tp0BSVLTz2U",
         },
         {
-          title: "IIFL Whatsapp animation | Series 02 - Animation",
+          title: "IIFL - Finance",
           videoUrl: "https://youtube.com/embed/Y0IKGtu7m4A?si=ECAUpKl75fRBldqA",
         },
       ],
@@ -542,7 +542,7 @@ const TagComponent = () => {
   };
 
   return (
-    <div className="p-4 lg:mt-20 mt-10">
+    <div className="p-4 mt-10 lg:mt-20">
       <div className="text-center font-nunito mb-10">
         <span className="text-black text-3xl lg:text-5xl font-bold font-nunito leading-[56px]">
           Our{" "}
