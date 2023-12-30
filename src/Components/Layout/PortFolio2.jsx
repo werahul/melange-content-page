@@ -123,6 +123,55 @@ const TagComponent = () => {
           title: "IIFL Whatsapp animation | Series 02 - Animation",
           videoUrl: "https://youtube.com/embed/Y0IKGtu7m4A?si=ECAUpKl75fRBldqA",
         },
+        {
+          title: "Yumme - FMCG",
+          videoUrl: "https://youtube.com/embed/Y4ucclmoyME?si=7gxNcHIyoQEKTT_V",
+        },
+        {
+          title: "Kalon - FMCG",
+          videoUrl: "https://youtube.com/embed/n7En3o1tZyg?si=Bhw2_mgWcU-j7_rN",
+        },
+        {
+          title: "Wolfman - Beauty & Fashion",
+          videoUrl: "https://youtube.com/embed/RqwYlnmv4cM?si=kxYDCq0ZNHWiYsSi",
+        },
+        {
+          title: "Arq - Food & Confectionery",
+          videoUrl: "https://youtube.com/embed/EcUeX4p3FeQ?si=BMwB8gGB9o2wcvNV",
+        },
+        {
+          title: "Hills & Dales - Beauty & Fashion",
+          videoUrl:
+            "https://www.youtube.com/embed/bEU8rp7yO-Q?si=fiNuwpFzFUw-bdoC",
+        },
+        {
+          title: "Gauhar Khan - Beauty & Fashion",
+          videoUrl:
+            "https://www.youtube.com/embed/-GqnW0de-XQ?si=9Bxn-LZq0ciEZ4N4",
+        },
+        {
+          title: "Diajio - FMCG",
+          videoUrl: "https://youtube.com/embed/xBwinKmlqGg?si=Se6N0hRzYn0UHUly",
+        },
+        {
+          title: "Sony - Consumer Electronics",
+          videoUrl:
+            "https://www.youtube.com/embed/ZOUouAJSrNk?si=mSnb60w268FmAs4t",
+        },
+        {
+          title: "Sony - Consumer Electronics",
+          videoUrl:
+            "https://www.youtube.com/embed/cPSYrwgXKOw?si=OeuaLxFuYAUIJSg0",
+        },
+        {
+          title: "Arq - Food & Confectionery",
+          videoUrl: "https://youtube.com/embed/O-IHFdpwsgs?si=DRnC4IFPqvULH_Bc",
+        },
+        {
+          title: "HCL - Software & Technology",
+          videoUrl:
+            "https://www.youtube.com/embed/jtktd1FCZGI?si=_1F1wtj6-3SrrKZ4",
+        },
       ],
       "Product Videos": [
         {
@@ -212,22 +261,41 @@ const TagComponent = () => {
       ],
       "Social Media Videos": [
         {
-          title: "Content specific to Brand Videos 1.",
-          videoUrl: "https://www.youtube.com/embed/your_brand_videos_video_id1",
+          title: "Yumme - FMCG",
+          videoUrl: "https://youtube.com/embed/Y4ucclmoyME?si=7gxNcHIyoQEKTT_V",
         },
         {
-          title: "Content specific to Brand Videos 2.",
-          videoUrl: "https://www.youtube.com/embed/your_brand_videos_video_id2",
+          title: "Kalon - FMCG",
+          videoUrl: "https://youtube.com/embed/n7En3o1tZyg?si=Bhw2_mgWcU-j7_rN",
+        },
+        {
+          title: "Wolfman - Beauty & Fashion",
+          videoUrl: "https://youtube.com/embed/RqwYlnmv4cM?si=kxYDCq0ZNHWiYsSi",
+        },
+        {
+          title: "Arq - Food & Confectionery",
+          videoUrl: "https://youtube.com/embed/EcUeX4p3FeQ?si=BMwB8gGB9o2wcvNV",
         },
       ],
       "Explainer Videos": [
         {
-          title: "Content specific to Brand Videos 1.",
-          videoUrl: "https://www.youtube.com/embed/your_brand_videos_video_id1",
+          title: "Sony - Consumer Electronics",
+          videoUrl:
+            "https://www.youtube.com/embed/ZOUouAJSrNk?si=mSnb60w268FmAs4t",
         },
         {
-          title: "Content specific to Brand Videos 2.",
-          videoUrl: "https://www.youtube.com/embed/your_brand_videos_video_id2",
+          title: "Sony - Consumer Electronics",
+          videoUrl:
+            "https://www.youtube.com/embed/cPSYrwgXKOw?si=OeuaLxFuYAUIJSg0",
+        },
+        {
+          title: "Arq - Food & Confectionery",
+          videoUrl: "https://youtube.com/embed/O-IHFdpwsgs?si=DRnC4IFPqvULH_Bc",
+        },
+        {
+          title: "HCL - Software & Technology",
+          videoUrl:
+            "https://www.youtube.com/embed/jtktd1FCZGI?si=_1F1wtj6-3SrrKZ4",
         },
       ],
       "Corporate Films": [
@@ -252,12 +320,18 @@ const TagComponent = () => {
       ],
       "Influencer Marketing Videos": [
         {
-          title: "Content specific to Brand Videos 1.",
-          videoUrl: "https://www.youtube.com/embed/your_brand_videos_video_id1",
+          title: "Hills & Dales - Beauty & Fashion",
+          videoUrl:
+            "https://www.youtube.com/embed/bEU8rp7yO-Q?si=fiNuwpFzFUw-bdoC",
         },
         {
-          title: "Content specific to Brand Videos 2.",
-          videoUrl: "https://www.youtube.com/embed/your_brand_videos_video_id2",
+          title: "Gauhar Khan - Beauty & Fashion",
+          videoUrl:
+            "https://www.youtube.com/embed/-GqnW0de-XQ?si=9Bxn-LZq0ciEZ4N4",
+        },
+        {
+          title: "Diajio - FMCG",
+          videoUrl: "https://youtube.com/embed/xBwinKmlqGg?si=Se6N0hRzYn0UHUly",
         },
       ],
     },
@@ -549,15 +623,15 @@ const TagComponent = () => {
         {contentBySubtag[selectedTag][selectedSubtag]
           .slice(0, visibleVideos)
           .map((video, index) => (
-            <div key={index} className="mb-4">
+            <div key={index} className="mb-4 w-[350px]">
               <iframe
-                width="350"
-                height="350"
+                width=""
+                height=""
                 src={video.videoUrl}
                 title="YouTube Video"
                 // frameBorder="0"
                 allowFullScreen
-                className="rounded-[20px] lg:w-[350px] w-full"
+                className="rounded-[20px] h-[350px] lg:w-[350px] w-full"
               ></iframe>
               <p className="mt-2 text-center multiverse-text text-[18px] font-nunito font-bold">
                 {video.title}
